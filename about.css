@@ -1,0 +1,45 @@
+/*the_main_part*/
+#the_main_part{
+overflow: hidden;
+padding: 30px;
+}
+#the_main_part p{
+color: black;
+}
+
+#the_hotel_image{
+height: 30%;
+width: 30%;
+float: right;
+border-radius: 50%;
+}
+
+/* testimoniols*/
+#testimoniols{
+background: url("image_resources/test-bg.jpg") no-repeat center center/cover;
+height: 300px;
+overflow: hidden;
+text-align: center;
+
+}
+.customer_review{
+background: #f7c08a;
+overflow: hidden;
+height: 80px;
+width: 600px;
+padding: 30px;
+border-radius: 3%;
+margin-top: 100px;
+background: rgba(0,0,0,0.5);
+}
+#testimoniols p{
+color: white;
+font-size: large;
+}
+
+.customer_image{
+height: 150px;
+float: right;
+border-radius: 50%;
+ 
+}

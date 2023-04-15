@@ -15,31 +15,46 @@ border-radius: 50%;
 }
 
 /* testimoniols*/
+
 #testimoniols{
 background: url("image_resources/test-bg.jpg") no-repeat center center/cover;
-height: 300px;
+height: 800px;
 overflow: hidden;
 text-align: center;
 
 }
+
+#testimoniols .contanier{
+text-align: center;
+padding: 40px;
+}
+
+
 .customer_review{
 background: #f7c08a;
-overflow: hidden;
-height: 80px;
-width: 600px;
-padding: 30px;
+overflow: visible;
+height: 200px;
+max-width: 600px;
+padding: 20px;
 border-radius: 3%;
-margin-top: 100px;
+margin: 20px auto;
 background: rgba(0,0,0,0.5);
+
+
 }
+
+
 #testimoniols p{
 color: white;
 font-size: large;
+text-align: left;
+padding: auto 20px;
 }
 
 .customer_image{
-height: 150px;
+max-width: 150px;
 float: right;
 border-radius: 50%;
+margin: 10px;
  
 }

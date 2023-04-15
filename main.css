@@ -4,6 +4,7 @@ margin: 0px;
 color:#fff;
 padding: 0px;
 line-height: 1.7em;
+box-sizing: border-box;
 }
 
 /*main and general*/
@@ -33,7 +34,7 @@ color: #f7c08a;
 .btn{
 background: #333;
 color: #fff;
-padding: 15px 10px;
+padding: 5px 5px;
 border: none;
 cursor: pointer;
 
@@ -148,11 +149,13 @@ padding: 20px;
 
 
 #fetures{
-height: 150px;
-color: black;
+height: 200px;
 overflow: hidden;
 
 }
+
+
+
 #fetures .box{
 float:left ;
 width: 33%;
@@ -160,22 +163,31 @@ text-align: center;
 padding-top: 20px;
 padding-bottom: 10px;
 min-height: 100%;
+background: #f3f2f2;
+}
+
+#fetures .con_box{
+background: #272727;
 
 }
 
 
-#fetures .box h3{
+
+#fetures .box .home_fet{
 color: black;
 }
 
 
 #fetures .box p{
-color: black;
 font-size: 15px;
 }
 
 #fetures .sec{
 background: #f7c08a;
+
+}
+.con{
+color: #fff;
 
 }
 
@@ -190,4 +202,25 @@ padding: 20px;
 footer p{
 padding: 10px 0px;
 
+}
+
+
+/*the cotntact form*/
+
+#the_form h1{
+padding: 20px 20px 20px 0px;
+font-size:  50px;
+
+
+}
+
+#the_form .contanier :not(:last-child) {
+color: black;
+margin: 10px 10px 10px 0px;
+
+}
+
+
+#the_form {
+margin-bottom: 50px;
 }
